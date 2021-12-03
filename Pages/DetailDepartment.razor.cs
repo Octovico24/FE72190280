@@ -11,7 +11,7 @@ namespace Blazor72190280.Pages
     public partial class DetailDepartment
     {
         [Parameter]
-        public string id { get; set; }
+        public string id { get; set;}
         public Department Department { get; set; } = new Department();
         [Inject]
         public IDepartmentService DepartmentService { get; set; }

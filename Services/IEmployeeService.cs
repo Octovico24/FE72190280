@@ -6,12 +6,12 @@ using Blazor72190280.Models;
 
 namespace Blazor72190280.Services
 {
-    public interface IEmployeeService
+   public interface IEmployeeService
     {
         Task<IEnumerable<Employee>> GetAll();
         Task<Employee> GetById(int id);
-        Task<Employee> Add(Employee employee);
         Task<Employee> Update(int id, Employee employee);
-        Task<Employee> Delete(int id);
+        Task<Employee> Add(Employee employee);
+        
     }
 }

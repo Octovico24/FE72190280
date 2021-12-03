@@ -8,10 +8,9 @@ using Blazor72190280.Models;
 
 namespace Blazor72190280.Services
 {
-    public class DepartmentService : IDepartmentService
+   public class DepartmentService : IDepartmentService
     {
         private HttpClient _httpClient;
-
         public DepartmentService(HttpClient httpClient)
         {
             _httpClient = httpClient;
@@ -24,7 +23,7 @@ namespace Blazor72190280.Services
 
         public async Task<Department> GetById(int id)
         {
-            var results = await _httpClient.GetFromJsonAsync<Department>($"api/Deparments/{id}");
+            var results = await _httpClient.GetFromJsonAsync<Department>($"api/Departments/{id}");
             return results;
         }
     }

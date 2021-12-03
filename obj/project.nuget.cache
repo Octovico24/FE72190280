@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQ1IIfCXvCrd9amGvcDfrGTLkl+zdbdipxDuyRKYYuxRMiZE8yrNSp20pSB4jIlx0LtM6FhQxabvgkgRyrAb4A==",
+  "dgSpecHash": "ii0UQdT02s13PKQdyTPdj3pMjyPi9JMvwye2izDxMvStn2/BS0IIqFRfrjCynzHo7rynxIv2bX5lnCukjnL0Yg==",
   "success": true,
-  "projectFilePath": "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
+  "projectFilePath": "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.12\\microsoft.aspnetcore.authorization.5.0.12.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.12\\microsoft.aspnetcore.components.5.0.12.nupkg.sha512",

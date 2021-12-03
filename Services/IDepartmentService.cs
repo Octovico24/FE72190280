@@ -8,7 +8,7 @@ namespace Blazor72190280.Services
 {
     public interface IDepartmentService
     {
-        Task < IEnumerable<Department>> GetAll();
-        Task <Department> GetById(int id);
+        Task<IEnumerable<Department>> GetAll();
+        Task<Department> GetById(int id);
     }
 }

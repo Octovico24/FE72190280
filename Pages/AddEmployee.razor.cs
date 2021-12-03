@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace Blazor72190280.Pages
 {
-    public partial class EditEmployee
+    public partial class AddEmployee
     {
         public Employee Employee { get; set; } = new Employee();
 
@@ -25,13 +25,12 @@ namespace Blazor72190280.Pages
 
         protected async override Task OnInitializedAsync()
         {
-            Employee = await EmployeeService.GetById(int.Parse(Id));
             Departments = (await DepartmentService.GetAll()).ToList();
         }
 
         protected async Task HandleValidSubmit(){
             Employee.PhotoPath = "images/Profile-picture.jpg";
-            Employee results = await EmployeeService.Update(int.Parse(Id), Employee);
+            Employee results = await EmployeeService.Add(Employee);
             NavigationManager.NavigateTo("employeepage");
         }
     }

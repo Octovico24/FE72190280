@@ -10,7 +10,8 @@ namespace Blazor72190280.Pages
 {
     public partial class EmployeePage
     {
-        public IEnumerable<Employee> Employees { get; set; }
+        public List<Employee> Employees { get; set; } = new List<Employee>();
+
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
         protected override async Task OnInitializedAsync()

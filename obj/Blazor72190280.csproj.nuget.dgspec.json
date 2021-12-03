@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj": {}
+    "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj": {}
   },
   "projects": {
-    "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj": {
+    "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
+        "projectUniqueName": "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
         "projectName": "Blazor72190280",
-        "projectPath": "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
+        "projectPath": "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\Blazor72190280.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\obj\\",
+        "outputPath": "c:\\Pemrograman Front-End (Semester 5)\\Blazor72190280\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

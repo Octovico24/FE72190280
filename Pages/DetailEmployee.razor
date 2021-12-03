@@ -1,6 +1,6 @@
 @page "/employeedetail/{id}"
 
-if(Employee == null || Employee.Department == null){
+@if(Employee == null){
     <div class="spinner"></div>
 }
 else{
@@ -12,7 +12,6 @@ else{
             <img class="card-img-top" src="@Employee.PhotoPath" />
             <h4>Employee ID: @Employee.EmployeeId</h4>
             <h4>Email: @Employee.Email</h4>
-            <h4>Department: @Employee.Department.DepartmentName</h4>
         </div>
         <div class="card-footer text-center">
             <a href="/" class="btn btn-primary">Back</a>

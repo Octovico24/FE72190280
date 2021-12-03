@@ -5,18 +5,17 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th> Department ID</th>
-            <th> Department Name</th>
+            <th>Department Id</th>
+            <th>Department Name</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var dept in Departments)
-        {
+        @foreach(var dept in Departments){
             <tr>
                 <td>@dept.DepartmentId</td>
                 <td>@dept.DepartmentName</td>
-                <td><a href="@($"departmentdetail/{dept.DepartmentId}")" class = "btn btn-primary">detail</a></td>
+                <td><a href="@($"departmentdetail/{dept.DepartmentId}")" class="btn btn-primary">detail</a></td>
             </tr>
         }
     </tbody>

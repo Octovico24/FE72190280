@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace Blazor72190280.Pages
 {
-    public partial class DetailEmployeePage
+    public partial class DetailEmployee
     {
         [Parameter]
         public string id { get; set; }
